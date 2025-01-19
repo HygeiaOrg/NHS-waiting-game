@@ -1,0 +1,26 @@
+npm install twitter-api-sdk (npm package)
+import { Client } from "twitter-api-sdk";
+
+async function main() {
+  const client = new Client(process.env. AAAAAAAAAAAAAAAAAAAAADzmiwEAAAAA1jKRdeceLImZdVgt7we%2Fyh2kV34%3DoF7eNokQk9F8nDHjOhFMv04QWQJlMA3nFCD5gIznkwIJkgLnu1);
+
+  const response = await client.tweets.tweetsRecentSearch({
+    "query": "context:Depression* OR context:Anxiety* OR context:Eating Disorder* OR context:self-harm* OR context:Suicide*",
+    "max_results": 100,
+    "sort_order": "recency",
+    "tweet.fields": [
+        "text"
+    ],
+    "expansions": [
+        "author_id",
+        "geo.place_id"
+    ],
+    "place.fields": [
+        "full_name"
+    ]
+  });
+  
+  console.log("response", JSON.stringify(response, null, 2));
+}
+  
+main();

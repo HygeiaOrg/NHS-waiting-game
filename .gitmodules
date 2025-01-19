@@ -1,0 +1,3 @@
+[submodule "src/data/twitter/src/data/twitter/scraping.py"]
+	path = src/data/twitter/src/data/twitter/scraping.py
+	url = https://github.com/ola-sumbo/scraping.py.git

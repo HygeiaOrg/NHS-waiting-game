@@ -1,0 +1,13 @@
+# temperatures are in 1/10 deg C;convert to C 
+from msilib.schema import LaunchCondition
+import pandas as pd
+# I need to create an open weather account, and get an API key
+weather ['TMIN'] /= 10.0
+weather ['TMAX'] /= 10.0
+weather ['Temp (c)'] = 0.5 * (weather ['TMIN'] + weather ['TMAX'])
+
+# prescip is in 1/10 mm
+weather ['Precip (mm)'] = weather ['PRCP'] / 10.0
+weather ['dry day'] = weather ['Precip (mm)'] == 0
+
+daily = daily.join(weather[['PRCP', 'Temp (c)', 'dry day']])
