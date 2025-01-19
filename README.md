@@ -1,10 +1,9 @@
 
-# Natural Language Processing: Predicting Self-Harm in London’s Young Adult Population
+# SimPy: NHS waiting game - bust the list
 
 ![Image](https://github.com/OmdenaAI/london-chapter-nlp-self-harm/blob/main/src/visualizations/Promo_London_chapter.png)
 
-[Project Problem Statement](https://docs.google.com/document/d/1sOpdcYN04Frj3jMtq1s57GCVRU8l0aTzZplxp_hWnLM/edit?usp=sharing)
-
+Today in London, the average referral to treatment waiting time is [insert]. This doesn't include the time people wait for a basic diagnostic test. In this simulation game, players are challenged to bust their local hospital diagnostic waiting list. You're a local NHS leader, and a supermarket has loaned their car park facilities. You have 6-weeks to bust the list before you go broke.  
 
 ## Contribution Guidelines
 - Have a look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution;
