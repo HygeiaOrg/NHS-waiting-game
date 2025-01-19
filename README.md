@@ -18,7 +18,7 @@ Today in London, the average referral to treatment waiting time is [insert]. Thi
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers/collaborators using this project.
-    ├── original           <- Original Source Code of the challenge hosted by Omdena. Can be used as a reference code for the current project goal.
+    ├── original           <- Original Source Code of the challenge hosted by HygeiaOrg. Can be used as a reference code for the current project goal.
     │ 
     │
     ├── reports            <- Folder containing the final reports/results of this project
@@ -42,7 +42,7 @@ Today in London, the average referral to treatment waiting time is [insert]. Thi
 
 ## Folder Overview
 
-- Original          - Folder containing old/completed Omdena challenge code.
+- Original          - Folder containing old/completed challenge code.
 - Reports           - Folder to store all Final Reports of this project.
 - Data              - Folder to Store all the data collected and used for this project. 
 - Docs              - Folder for task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
