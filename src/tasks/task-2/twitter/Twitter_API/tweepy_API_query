@@ -1,6 +1,0 @@
-# API Query refer to config folder for bearer token and api key
-import tweepy
-API_secret_key = EmQUCdG3sEGPZZ9mL7tjK96gdr5aXa8ygU0lTf89FcVITtoAD9
-Bearer_token = AAAAAAAAAAAAAAAAAAAAADzmiwEAAAAA1jKRdeceLImZdVgt7we%2Fyh2kV34%3DoF7eNokQk9F8nDHjOhFMv04QWQJlMA3nFCD5gIznkwIJkgLnu1
-client = tweepy.client(Bearer_token)
-
