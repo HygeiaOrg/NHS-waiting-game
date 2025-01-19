@@ -61,12 +61,12 @@ Open the Command line or Terminal
 
 - Clone the repository:
 ```
-git clone https://github.com/OmdenaAI/london-chapter-nlp-self-harm
+git clone https://github.com/HygeiaOrg/NHS-waiting-game/tree/main
 ```
 - Move to folder
 
 ```
-cd OmdenaAI/london-chapter-nlp-self-harm
+cd HygeiaOrg/NHS-waiting-game/tree/main
 ```
 
  - To open with VS code 
