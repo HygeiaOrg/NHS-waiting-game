@@ -45,11 +45,11 @@ Today in London, the average referral to treatment waiting time is [insert]. Thi
 - Original          - Folder containing old/completed challenge code.
 - Reports           - Folder to store all Final Reports of this project.
 - Data              - Folder to Store all the data collected and used for this project. 
-- Docs              - Folder for task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-- References        - Folder to store any referneced code/research papers and other useful documents used for this project.
+- Docs              - Folder for task documentation, Meeting Presentations and task Workflow Documents and Diagrams.
+- References        - Folder to store any referenced code/research papers and other useful documents used for this project.
 - Tasks             - Master folder for all tasks.
-  - All Task Folder names should follow specific naming convention.
-  - All Task folder names should be in chronologial order (from 1 to n).
+  - All Task Folder names should follow specific naming conventions.
+  - All Task folder names should be in chronological order (from 1 to n).
   - All Task folders should have a README.md file with task Details and task goals along with an info table containing all code/notebook files with their links and information.
   - Update the [task-table](./src/tasks/README.md#task-table) whenever a task is created and explain the purpose and goals of the task to others.
 - Visualization     - Folder to store dashboards, analysis and visualization reports.
@@ -57,6 +57,8 @@ Today in London, the average referral to treatment waiting time is [insert]. Thi
 
 
 ## Project Setup
+Get started with Git (https://codecademy.com/article/what-is-git-and-github-desktop)
+
 Open the Command line or Terminal
 
 - Clone the repository:
